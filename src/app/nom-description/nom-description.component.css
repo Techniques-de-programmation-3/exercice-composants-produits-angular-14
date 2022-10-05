@@ -1,0 +1,10 @@
+:host {
+    display: block;
+    background-color: rgb(252, 183, 189);
+    min-width: 150px;
+    flex-grow: 8;
+}
+
+h1 {
+    font-size: 1.2em;
+}
