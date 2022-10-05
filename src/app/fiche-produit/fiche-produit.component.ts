@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Produit } from '../produit';
 
 @Component({
   selector: 'app-fiche-produit',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['../shared/shared-styles.css', './fiche-produit.component.css']
 })
 export class FicheProduitComponent implements OnInit {
+  @Input() produit?: Produit; // Ou autre type selon la propriété 
 
   constructor() { }
 
@@ -13,3 +15,4 @@ export class FicheProduitComponent implements OnInit {
   }
 
 }
+

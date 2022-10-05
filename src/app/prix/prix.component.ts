@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-prix',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['../shared/shared-styles.css', './prix.component.css']
 })
 export class PrixComponent implements OnInit {
+  @Input() prix? = 0;
 
   constructor() { }
 
