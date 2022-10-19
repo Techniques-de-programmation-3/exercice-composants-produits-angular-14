@@ -1,7 +1,10 @@
 Fiche produit
 <div class="flex">
     <app-image></app-image>
-    <app-nom-description [description]="produit?.description" [nom]="produit?.nom"></app-nom-description>
+    <div class="blocCentre">
+        <app-nom-description [description]="produit?.description" [nom]="produit?.nom"></app-nom-description>
+        <app-caracteristiques [caracteristiques]="produit?.caracteristiques"></app-caracteristiques>
+    </div>
     <div class="blocDroite">
         <app-prix [prix]="produit?.prix"></app-prix>
         <app-lien-details></app-lien-details>

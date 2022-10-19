@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PRODUITS } from '../mock-produits';
 import { Produit } from '../produit';
 
 @Component({
@@ -7,17 +8,7 @@ import { Produit } from '../produit';
   styleUrls: ['../shared/shared-styles.css', './liste-produits.component.css']
 })
 export class ListeProduitsComponent implements OnInit {
-  produit1: Produit = { 
-    nom: 'Produit 1',
-    description: 'Description du produit 1...',
-    prix: 10
-  };
-  
-  produit2: Produit = {
-    nom: 'Produit 2',
-    description: 'Description du produit 2...',
-    prix: 20
-  };
+  produits = PRODUITS
 
   constructor() { }
 

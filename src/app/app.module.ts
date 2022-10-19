@@ -11,6 +11,7 @@ import { NomDescriptionComponent } from './nom-description/nom-description.compo
 import { PiedPageComponent } from './pied-page/pied-page.component';
 import { PrixComponent } from './prix/prix.component';
 import { ImageComponent } from './image/image.component';
+import { CaracteristiquesComponent } from './caracteristiques/caracteristiques.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ImageComponent } from './image/image.component';
     NomDescriptionComponent,
     PiedPageComponent,
     PrixComponent,
-    ImageComponent
+    ImageComponent,
+    CaracteristiquesComponent
   ],
   imports: [
     BrowserModule,
