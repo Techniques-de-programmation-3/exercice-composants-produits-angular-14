@@ -12,6 +12,13 @@ import { PiedPageComponent } from './pied-page/pied-page.component';
 import { PrixComponent } from './prix/prix.component';
 import { ImageComponent } from './image/image.component';
 import { CaracteristiquesComponent } from './caracteristiques/caracteristiques.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +35,12 @@ import { CaracteristiquesComponent } from './caracteristiques/caracteristiques.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule, 
+    MatToolbarModule, 
+    MatIconModule, 
+    MatButtonModule, 
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

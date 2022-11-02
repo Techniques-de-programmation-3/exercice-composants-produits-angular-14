@@ -2,3 +2,13 @@
     display: block;
     background-color: rgb(255, 252, 92);
 }
+
+.card {
+    max-width: 200px;
+    margin:10px
+}
+
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+}
