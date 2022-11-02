@@ -5,6 +5,7 @@ export interface Produit {
     nom: string,
     description: string,
     prix: number, 
-    caracteristiques : Caracteristiques
+    caracteristiques: Caracteristiques,
+    qteStock: number
 }
 

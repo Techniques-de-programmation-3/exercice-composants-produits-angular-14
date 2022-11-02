@@ -7,7 +7,8 @@ export const PRODUITS: Produit[] = [
         prix: 10, 
         caracteristiques: {
             couleur:'rouge'
-        }
+        }, 
+        qteStock:0
     },
     {
         nom: 'Nom du produit 2',
@@ -16,7 +17,8 @@ export const PRODUITS: Produit[] = [
         caracteristiques: {
             couleur: 'bleue', 
             taille : '3 pieds'
-        }
+        },
+        qteStock: 1
     }, 
     {
         nom: 'Nom du produit 3',
@@ -24,18 +26,21 @@ export const PRODUITS: Produit[] = [
         prix: 30,
         caracteristiques: {
             taille : 'Petit'
-        }
+        },
+        qteStock: 5
     },
     {
         nom: 'Nom du produit 4',
         description: 'Description du produit 4....',
         prix: 40,
-        caracteristiques: {}
+        caracteristiques: {},
+        qteStock: 10
     },
     {
         nom: 'Nom du produit 6',
         description: 'Description du produit 6....',
         prix: 50,
-        caracteristiques: {}
+        caracteristiques: {},
+        qteStock: 15
     } 
 ]
